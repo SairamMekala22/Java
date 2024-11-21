@@ -1,0 +1,13 @@
+In retail  store , 3 products are there  , 
+one can print details  of the products , sell it  or give discount on the  products ,  products can be restocked only if the inventory reaches 0, one can  also  check for the stock 
+of the  product.
+Workflow ------>Retail  Store creates 3 products with
+1 product - 12
+2 product -5
+3 product -  7
+1 Customer -  2,3(4)
+2 customer - 1,2 ,3(4)
+3 customer -  1(10)
+4customer -1(5)
+At  any given time the products shouldbe available for the
+customer to buy

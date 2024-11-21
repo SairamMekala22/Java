@@ -1,0 +1,7 @@
+In Java, there are two ways to create strings
+
+First way is to directly initialise string by giving it in "". When we create string with this mehtod, it is saved in "String Constant Pool".
+
+Second way is to create strings using new keyword. By this method a string object gets created in the heap. 
+
+String created by these two method arte differnt

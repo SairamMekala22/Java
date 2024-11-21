@@ -1,0 +1,10 @@
+Shadowing:- When instance varaiable name and parameter name in constructor is same them the shadow of the parameter falls on the instance variable. As a result the instance variable remains unchanged(Default value).
+
+Constructor:- Constuctor is a block of code which is called when a new instance of a class is created. Generally constructor is used to initilize state of the class. A constructor can only be called once i.e. while creating a new instance. Constructor is called by jvm. 
+
+Implicit default constructor: While creating an instance of a class, if that class does not have a constructor then the jvm creates a constructor which does not take any parameters.
+
+Explicit default constructor: Constructor that is written or created by a programmer with some parameters.
+
+Overloaded constructor:- We can have mutiple constructors in java. But they should vary with nummber of parameters or type of parametrs or else jvm will confuse and will throw an error.
+When a constructor is defined in a class, jvm will not define a Implicit default constructor.

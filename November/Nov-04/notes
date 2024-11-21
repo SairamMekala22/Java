@@ -1,0 +1,3 @@
+Syntax errors are neither errors nor exceptions.
+Error cannot be handled and are occured due to external reasons.
+Exceptions can be handled and are occured due to mistake in code.

@@ -1,0 +1,12 @@
+Difference between static variables and instance variables:-
+
+instance variables are explicitly created and accesed by every differnt instance of class and it is different from every other instances
+
+static variables are created for a class and it is same for every instance of that class. Every class can access this and can make changes to it. They are created when the class is loaded into JVM. They can be accessed even without creating an object of the class.
+
+Static variables are class variables, they belongs to the class i.e. the copy of this variables is not created, these copies are not created. All the objects/instances can access and change this copy but all instances can access the same value.
+
+Static methods are similar to static variables. But static methods can only access static variables inside the class. Instance variables cannot be accessed inside static methods.
+
+Why is main static in nature?
+Ans:- Static methods can be invoked without created an objec of the class in which it is defined. Hence the JVM doesnot need to create an object of the executable class just to invoke main method.
